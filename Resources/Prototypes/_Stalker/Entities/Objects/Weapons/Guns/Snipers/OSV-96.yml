@@ -1,7 +1,9 @@
 - type: entity
-  abstract: true
   parent: STBaseWeaponSniper
-  id: STBaseWeaponRifleOSV96
+  id: STWeaponSniperOSV96
+  suffix: ST, Кастомка
+  name: OSV-96
+  description: A high powered 13x108 sniper, meant for taking down high grade mutants.
   components:
   - type: FarGunshot
     sound: /Audio/_DZ/Effects/FarGunshots/osv96_shot_from_long_distance.ogg
@@ -59,11 +61,3 @@
   - type: Scope
     zoom: 1.65
     offset: 14
-
-- type: entity
-  parent: STBaseWeaponRifleOSV96
-  suffix: ST, Кастомка
-  id: STWeaponSniperOSV96
-  name: OSV-96 Взломщик
-  description: российская самозарядная крупнокалиберная снайперская винтовка под калибр 12,7x108мм. Разработана в Туле специалистами КБ приборостроения.
-
